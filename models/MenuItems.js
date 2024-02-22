@@ -28,6 +28,7 @@ const MenuItemsSchema = mongoose.Schema({
     }
 });
 
+//creating model of MEnuItems
 const MenuItem = mongoose.model('MenuItem', MenuItemsSchema); // Fix the model name here
 
 module.exports = MenuItem;
